@@ -1,0 +1,26 @@
+---
+title: Rails Girl Nantes
+---
+
+= partial 'views/header'
+  
+.container
+  .notification.is-info
+    button.delete
+    p
+      i.fa.fa-calendar-check-o.fa-lg>
+      | Prochain évènement du 22 au 23 septembre 2017 à l'occastion de la
+      =< link_to 'Nantes Digital Week', 'http://www.nantesdigitalweek.com/evenement-2017/apprendre-coder-application-web/#.WUwag8bpOu4', target: '_blank'
+      | .
+
+section.hero
+  .hero-body
+    .container
+      h1.title Apprenez à coder 
+      h2.subtitle 1 journée = 1 application web avec Ruby on Rails.
+
+.container
+  .flexbox.flexbox-center
+    = image_tag 'coding.jpg'
+
+= partial 'views/footer'
