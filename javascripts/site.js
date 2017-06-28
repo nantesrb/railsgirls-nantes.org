@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){for(var e=document.getElementsByClassName("delete"),t=0;t<e.length;t++)e[t].addEventListener("click",function(){var e=this.parentNode;e.parentNode.removeChild(e)})});
