@@ -1,5 +1,7 @@
 @import "flexboxes";
 
+$red-girls: #DD390D;
+
 .header{
   padding: 30px 10px;
   background-color: #DD390D;
@@ -15,4 +17,13 @@
 
 .text-center{
   text-align: center;
+}
+
+.is-red{
+  background-color: $red-girls;
+  color: white;
+  &:hover{
+    background-color: darken($red-girls, 5%);
+    color: white;
+  }
 }
