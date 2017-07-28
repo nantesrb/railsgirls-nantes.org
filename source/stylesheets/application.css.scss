@@ -1,0 +1,53 @@
+$red-girls: #DD390D;
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+@media screen and (min-width: 769px) {
+  .hero.is-large .hero-body {
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+  }
+}
+section.head {
+  background-color: $red-girls;
+  img {
+    height: 100px;
+  }
+}
+.header-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.49),rgba(0, 0, 0, 0.89)),image-url('coding.jpg');
+  background-size: cover;
+}
+.is-outlined {
+  background-color:transparent;
+  color: #fff;
+}
+.hero-cta {
+  padding: 30px;
+  background-color: #ffdd57;
+  p.title {
+    font-size: 1.5rem;
+    a {
+      color: #000;
+      text-decoration: underline;
+    }
+  }
+}
+.panel-block.section p {
+  font-size: 17px;
+  line-height: 1.4;
+  color: #95A5A6;
+}
+// .section.main {
+//   background-color: #F0F0F0;
+// }
+.icon-block {
+  font-size: 5em;
+}
+footer.footer {
+  padding-bottom: 3rem;
+}
+.block > iframe {
+  width: 100%;
+}
