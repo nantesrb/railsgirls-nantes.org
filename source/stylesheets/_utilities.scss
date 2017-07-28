@@ -1,0 +1,20 @@
+@media screen and (min-width: 769px) {
+  .hero.is-large .hero-body {
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+  }
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.icon-block {
+  font-size: 5em;
+}
+footer.footer {
+  padding-bottom: 3rem;
+}
+.block > iframe {
+  width: 100%;
+}

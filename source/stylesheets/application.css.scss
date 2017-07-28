@@ -1,15 +1,7 @@
-$red-girls: #DD390D;
+@import "index";
 
-body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-}
-@media screen and (min-width: 769px) {
-  .hero.is-large .hero-body {
-    padding-bottom: 12rem;
-    padding-top: 12rem;
-  }
-}
 section.head {
+  padding: 10px;
   background-color: $red-girls;
   img {
     height: 100px;
@@ -42,12 +34,3 @@ section.head {
 // .section.main {
 //   background-color: #F0F0F0;
 // }
-.icon-block {
-  font-size: 5em;
-}
-footer.footer {
-  padding-bottom: 3rem;
-}
-.block > iframe {
-  width: 100%;
-}

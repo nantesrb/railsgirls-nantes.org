@@ -28,11 +28,6 @@ section.hero.is-primary.is-large.header-image
 
 = partial 'views/programme'
 
-footer.footer
-  .container
-    .content.has-text-centered
-      p
-        | Évènements organisés par
-        strong<
-          = link_to 'Nantes.rb', 'https://github.com/nantesrb/Bienvenue', target: '_blank'
+= partial 'layouts/footer'
+          
 = javascript_include_tag 'application'

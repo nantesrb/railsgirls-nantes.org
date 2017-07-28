@@ -1,0 +1,21 @@
+.flexbox{
+  display: flex;
+  align-items: center;
+  &-center{
+    justify-content: center;
+  }
+  &-around{
+    justify-content: space-around;
+  }
+  &-bottom{
+    align-items: flex-end;
+  }
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.wrap-reverse{
+  flex-wrap: wrap-reverse;
+}
