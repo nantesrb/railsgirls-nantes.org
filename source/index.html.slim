@@ -10,16 +10,23 @@ section.hero.is-primary.is-large.header-image
       h2.subtitle.is-5
         | 1 journée = 1 application web avec Ruby on Rails
       p
-        = link_to '#', class: 'button is-outlined is-warning is-large', disabled: true
+        = link_to 'inscriptions.html', class: 'button is-outlined is-warning is-large', disabled: true
           span
             | Inscriptions closes
+      br
+      p
+        = link_to 'inscriptions.html', class: 'button is-outlined is-warning is-large'
+          span.icon
+            i.fa.fa-check-square-o
+          span
+            | Me tenir au courant des prochains évènements
 .hero-cta
   nav.level
     .level-item.has-text-centered
       p.title
         span.icon.is-medium>
           i.fa.fa-calendar-check-o
-        strong> Prochain événement
+        strong> Prochain évènement
         | du 22 au 23 septembre 2017 à l'occasion de la
         strong
           =< link_to 'Nantes Digital Week', 'http://www.nantesdigitalweek.com/evenement-2017/apprendre-coder-application-web/#.WUwag8bpOu4', target: '_blank'
