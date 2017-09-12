@@ -10,11 +10,9 @@ section.hero.is-primary.is-large.header-image
       h2.subtitle.is-5
         | 1 journée = 1 application web avec Ruby on Rails
       p
-        = link_to 'inscriptions.html', class: 'button is-outlined is-warning is-large'
-          span.icon
-            i.fa.fa-check-square-o
+        = link_to '#', class: 'button is-outlined is-warning is-large', disabled: true
           span
-            | Inscription
+            | Inscriptions closes
 .hero-cta
   nav.level
     .level-item.has-text-centered
@@ -29,5 +27,5 @@ section.hero.is-primary.is-large.header-image
 = partial 'views/programme'
 
 = partial 'layouts/footer'
-          
+
 = javascript_include_tag 'application'
