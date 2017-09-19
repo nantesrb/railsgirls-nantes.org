@@ -1,0 +1,27 @@
+section.hero.is-white{
+  background-color: #ffffff;
+}
+
+.sponsor{
+  box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+  padding: 10px;
+  height: 100px;
+  width: 166px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.vip{
+    height: 150px;
+    width: 250px;
+  }
+
+  img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  &:hover{
+    box-shadow: 0 4px 6px rgba(0,0,0,0.36);
+  }
+}

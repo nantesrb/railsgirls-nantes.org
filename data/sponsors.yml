@@ -1,0 +1,45 @@
+1kubator:
+  name: 1Kubator
+  logo: logo_1Kubator.png
+  url: https://1kubator.com/incubateur-nantes/
+  description: ""
+  category: vip
+
+le_wagon_nantes:
+  name: Le Wagon Nantes
+  logo: logo_le-wagon-nantes.png
+  url: https://www.lewagon.com/nantes
+  description: ""
+  category: vip
+
+clever_cloud:
+  name: Clever Cloud
+  logo: logo_clever-cloud.png
+  url: https://www.clever-cloud.com/
+  description: ""
+  category: vip
+
+palo_it:
+  name: Palo IT
+  logo: logo_palo-it.png
+  url: http://fr.palo-it.com/
+  description: ""
+  category: vip
+
+la_cordee:
+  name: La Cordée Fourée
+  logo: logo_la-cordee.png
+  url: https://www.la-cordee.net/cordee/nantes/foure/
+  description: ""
+
+les_bouchees_douces:
+  name: Les Bouchées Douces
+  logo: logo_les-bouchees-douces.png
+  url: https://lesbouchesdoucesleblog.wordpress.com/
+  description: ""
+
+la_fruitbox:
+  name: La Fruitbox
+  logo: logo_la-fruitbox.png
+  url: https://www.lafruitbox.fr/
+  description: ""
