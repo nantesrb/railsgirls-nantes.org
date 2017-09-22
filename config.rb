@@ -1,5 +1,3 @@
-redirect "/tuto", to: "https://github.com/nantesrb/railsgirls_tuto/blob/master/README.md"
-
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
