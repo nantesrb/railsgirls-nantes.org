@@ -1,7 +1,7 @@
 section.hero.is-white
   .hero-body
     .container
-      h1.title.is-3.has-text-centered Nous n'aurions pas pu organiser l'événement sans eux
+      h1.title.is-3.has-text-centered Rails Girls Nantes est un événement co-organisé par
       .columns.is-mobile.is-multiline.is-centered
         - data.sponsors.each do |*, sponsor|
           - next if sponsor.category != 'vip'
@@ -9,7 +9,7 @@ section.hero.is-white
             = link_to sponsor.url, target: '_blank', class: 'sponsor vip' do
               = image_tag "logos/#{sponsor.logo}", alt: sponsor.name, title: sponsor.name
 
-      h2.title.is-5.has-text-centered Pour les petits plus qui font la différence
+      h2.title.is-5.has-text-centered ​... et soutenu par de formidables partenaires
       .columns.is-mobile.is-multiline.is-centered
         - data.sponsors.each do |*, sponsor|
           - next if sponsor.category == 'vip'

@@ -1,7 +1,7 @@
-1kubator:
-  name: 1Kubator
-  logo: logo_1Kubator.png
-  url: https://1kubator.com/incubateur-nantes/
+adn_ouest:
+  name: ADN Ouest
+  logo: logo-adn-ouest.jpg
+  url: http://www.adnouest.org/
   description: ""
   category: vip
 
@@ -12,34 +12,23 @@ le_wagon_nantes:
   description: ""
   category: vip
 
-clever_cloud:
-  name: Clever Cloud
-  logo: logo_clever-cloud.png
-  url: https://www.clever-cloud.com/
+les_fameuses:
+  name: Les Fameuses
+  logo: lesfameuses-logo.jpg
+  url: http://www.lesfameuses.com/accueil
   description: ""
   category: vip
 
-palo_it:
-  name: Palo IT
-  logo: logo_palo-it.png
-  url: http://fr.palo-it.com/
-  description: ""
-  category: vip
 
-la_cordee:
-  name: La Cordée Fourée
-  logo: logo_la-cordee.png
-  url: https://www.la-cordee.net/cordee/nantes/foure/
+1kubator:
+  name: 1Kubator
+  logo: logo_1Kubator.png
+  url: https://1kubator.com/incubateur-nantes/
   description: ""
 
-les_bouchees_douces:
-  name: Les Bouchées Douces
-  logo: logo_les-bouchees-douces.png
-  url: https://lesbouchesdoucesleblog.wordpress.com/
+atlanstic_2020:
+  name: Atlanstic 2020
+  logo: logo_atlanstic_horizontal.png
+  url: http://atlanstic2020.fr/
   description: ""
 
-la_fruitbox:
-  name: La Fruitbox
-  logo: logo_la-fruitbox.png
-  url: https://www.lafruitbox.fr/
-  description: ""
