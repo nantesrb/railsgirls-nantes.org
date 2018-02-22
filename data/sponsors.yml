@@ -25,10 +25,26 @@ les_fameuses:
   logo: logo_1Kubator.png
   url: https://1kubator.com/incubateur-nantes/
   description: ""
+  category: vip
 
 atlanstic_2020:
   name: Atlanstic 2020
   logo: logo_atlanstic_horizontal.png
   url: http://atlanstic2020.fr/
   description: ""
+  category: vip
+
+micropole:
+  name: Micropole
+  logo: micropole.jpg
+  url: http://www.micropole.com/fr-fr/index.cfm
+  description: ""
+  category: vip
+
+maison_de_l_emploi:
+  name: Maison de l'Emploi
+  logo: mde.jpg
+  url: http://www.me-metropole-nantaise.org/
+  description: ""
+  category: vip
 
