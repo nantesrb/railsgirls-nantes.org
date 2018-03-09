@@ -27,6 +27,20 @@ les_fameuses:
   description: ""
   category: vip
 
+zenika:
+  name: Zenika
+  logo: zenika_logo.png
+  url: https://www.zenika.com/
+  description: ""
+  category: vip
+
+we_craft:
+  name: We craft apps
+  logo: we-craft-apps-white.png
+  url: https://www.wecraftapps.com
+  description: ""
+  category: vip
+
 atlanstic_2020:
   name: Atlanstic 2020
   logo: logo_atlanstic_horizontal.png
