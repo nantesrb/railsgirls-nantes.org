@@ -12,34 +12,34 @@ le_wagon_nantes:
   description: ""
   category: vip
 
-clever_cloud:
-  name: Clever Cloud
-  logo: logo_clever-cloud.png
-  url: https://www.clever-cloud.com/
-  description: ""
-  category: vip
-
-palo_it:
-  name: Palo IT
-  logo: logo_palo-it.png
-  url: http://fr.palo-it.com/
-  description: ""
-  category: vip
-
-la_cordee:
-  name: La Cordée Fourée
-  logo: logo_la-cordee.png
-  url: https://www.la-cordee.net/cordee/nantes/foure/
-  description: ""
-
-les_bouchees_douces:
-  name: Les Bouchées Douces
-  logo: logo_les-bouchees-douces.png
-  url: https://lesbouchesdoucesleblog.wordpress.com/
-  description: ""
-
-la_fruitbox:
-  name: La Fruitbox
-  logo: logo_la-fruitbox.png
-  url: https://www.lafruitbox.fr/
-  description: ""
+# clever_cloud:
+#   name: Clever Cloud
+#   logo: logo_clever-cloud.png
+#   url: https://www.clever-cloud.com/
+#   description: ""
+#   category: vip
+#
+# palo_it:
+#   name: Palo IT
+#   logo: logo_palo-it.png
+#   url: http://fr.palo-it.com/
+#   description: ""
+#   category: vip
+#
+# la_cordee:
+#   name: La Cordée Fourée
+#   logo: logo_la-cordee.png
+#   url: https://www.la-cordee.net/cordee/nantes/foure/
+#   description: ""
+#
+# les_bouchees_douces:
+#   name: Les Bouchées Douces
+#   logo: logo_les-bouchees-douces.png
+#   url: https://lesbouchesdoucesleblog.wordpress.com/
+#   description: ""
+#
+# la_fruitbox:
+#   name: La Fruitbox
+#   logo: logo_la-fruitbox.png
+#   url: https://www.lafruitbox.fr/
+#   description: ""
