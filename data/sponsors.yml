@@ -12,13 +12,20 @@ le_wagon_nantes:
   description: ""
   category: vip
 
-# clever_cloud:
-#   name: Clever Cloud
-#   logo: logo_clever-cloud.png
-#   url: https://www.clever-cloud.com/
-#   description: ""
-#   category: vip
-#
+clever_cloud:
+  name: Clever Cloud
+  logo: logo_clever-cloud.png
+  url: https://www.clever-cloud.com/
+  description: ""
+  category: vip
+
+code_lutin:
+  name: Code Lutin
+  logo: logo_code-lutin.png
+  url: https://www.codelutin.com/
+  description: ""
+  category: vip
+
 # palo_it:
 #   name: Palo IT
 #   logo: logo_palo-it.png
@@ -26,11 +33,29 @@ le_wagon_nantes:
 #   description: ""
 #   category: vip
 #
-# la_cordee:
-#   name: La Cordée Fourée
-#   logo: logo_la-cordee.png
-#   url: https://www.la-cordee.net/cordee/nantes/foure/
-#   description: ""
+micropole:
+  name: Micropole
+  logo: logo_micropole.png
+  url: http://www.micropole.com
+  description: ""
+
+zenika:
+  name: Zenika
+  logo: logo_zenika.png
+  url: https://www.zenika.com/
+  description: ""
+
+la_voix_du_chat:
+  name: La voix du chat artiste
+  logo: logo_la-voix-du-chat.png
+  url: http://improv.chat/
+  description: ""
+
+la_cordee:
+  name: La Cordée Fourée
+  logo: logo_la-cordee.png
+  url: https://www.la-cordee.net/cordee/nantes/foure/
+  description: ""
 #
 # les_bouchees_douces:
 #   name: Les Bouchées Douces
