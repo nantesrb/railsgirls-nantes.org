@@ -9,21 +9,21 @@ section.hero.is-primary.is-large.header-image
         | Apprenez à construire le web&nbsp;!
       h2.subtitle.is-5
         | 1 journée = 1 application web avec Ruby on Rails
-      / p
-      /   = link_to 'inscriptions.html', class: 'button is-outlined is-warning is-large'
-      /     span
-      /       | Inscription
-      p
-        = link_to '#', class: 'button is-outlined is-warning is-large', disabled: true
-          span
-            | Inscriptions closes
-      br
       p
         = link_to 'inscriptions.html', class: 'button is-outlined is-warning is-large'
-          span.icon
-            i.fa.fa-check-square-o
           span
-            | Me tenir au courant des prochains évènements
+            | Inscription
+      / p
+      /   = link_to '#', class: 'button is-outlined is-warning is-large', disabled: true
+      /     span
+      /       | Inscriptions closes
+      / br
+      / p
+      /   = link_to 'inscriptions.html', class: 'button is-outlined is-warning is-large'
+      /     span.icon
+      /       i.fa.fa-check-square-o
+      /     span
+      /       | Me tenir au courant des prochains évènements
 .hero-cta
   nav.level
     .level-item.has-text-centered
@@ -31,9 +31,9 @@ section.hero.is-primary.is-large.header-image
         span.icon.is-medium>
           i.fa.fa-calendar-check-o
         strong> Prochain évènement
-        | du 14 au 15 septembre 2018 à l'occasion de la
+        | du 20 au 21 septembre 2019 à l'occasion de la
         strong
-        =< link_to 'Nantes Digital Week', 'http://www.nantesdigitalweek.com/evenement-2018/rails-girls-apprenez-a-coder-1-journee-1-application-web/', target: '_blank'
+        =< link_to 'Nantes Digital Week', 'http://www.nantesdigitalweek.com/', target: '_blank'
 
 = partial 'views/sponsors'
 
