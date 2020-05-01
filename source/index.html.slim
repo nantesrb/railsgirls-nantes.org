@@ -2,9 +2,9 @@ section.head
   .container.has-text-centered
     = link_to "/"
       = image_tag "railsgirls-nantes.png"
-section.hero.is-primary.is-large.header-image
-  .hero-body
-    .container.has-text-centered
+.columns.banner
+  .column
+    .banner-content-text.has-text-centered
       h1.title.is-2
         | Apprenez à construire le web&nbsp;!
       h2.subtitle.is-5
@@ -14,26 +14,30 @@ section.hero.is-primary.is-large.header-image
       /     span
       /       | Inscription
       p
-        = link_to '#', class: 'button is-outlined is-warning is-large', disabled: true
+        = link_to '#', class: 'is-warning is-large', disabled: true
           span
-            | Inscriptions closes
+            | S'inscrire
       br
       p
-        = link_to 'inscriptions.html', class: 'button is-outlined is-warning is-large'
-          span.icon
-            i.fa.fa-check-square-o
-          span
-            | Me tenir au courant des prochains évènements
-.hero-cta
-  nav.level
-    .level-item.has-text-centered
-      p.title
-        span.icon.is-medium>
-          i.fa.fa-calendar-check-o
-        strong> Prochain évènement
-        | du 20 au 21 septembre 2019 à l'occasion de la
+        | 🗓️ Prochain évènement du 25 au 26 septembre 2020
+        br
+        | à l'occasion de la
         strong
-        =< link_to 'Nantes Digital Week', 'http://www.nantesdigitalweek.com/', target: '_blank'
+        =< link_to 'Nantes Digital Week 🗓️', 'http://www.nantesdigitalweek.com/', target: '_blank'
+
+  .column
+    .picture-card
+      = image_tag "photo1.jpeg"
+
+.columns.is-mobile.is-centered
+  .column.is-11.event-details
+    p
+      | Dans le cadre de la Nantes Digital Week, nous avons le plaisir d'organiser une journée Rails Girls (1 jour pour apprendre à coder) en partenariat avec Le Wagon et 1Kubator.
+      br
+      | Cette journée, dans la lignée des Rails Girls créés en Finlande en 2010, est avant tout un événement au service de la mixité dans les métiers du développement informatique. C’est donc un rendez-vous ouvert à tous : aux femmes, aux hommes, aux autres, aux débutante(s), curieuses(eux), novices de tous horizons, en donnant la priorité aux femmes et aux débutants. Tout ce dont vous avez besoin, c’est d’un ordinateur et d’un soupçon d’imagination !
+      br
+      | Au programme : découverte des bases de la programmation, des ateliers pour apprendre à coder une web app dans les règles de l’art, des rencontres passionnantes avec des acteurs du numérique et des pros du développement, le tout dans une ambiance joyeuse et décontractée.
+
 
 = partial 'views/sponsors'
 
