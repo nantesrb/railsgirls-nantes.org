@@ -31,9 +31,34 @@ section.hero.is-primary.is-large.header-image
         span.icon.is-medium>
           i.fa.fa-calendar-check-o
         strong> Prochain évènement
-        | du 20 au 21 septembre 2019 à l'occasion de la
+        | du 25 au 26 septembre 2020 à l'occasion de la
         strong
         =< link_to 'Nantes Digital Week', 'http://www.nantesdigitalweek.com/', target: '_blank'
+.columns
+  .column
+    .banner
+      .banner-content.has-text-centered
+        h1.title.is-2
+          | Apprenez à construire le web&nbsp;!
+        h2.subtitle.is-5
+          | 1 journée = 1 application web avec Ruby on Rails
+        / p
+        /   = link_to 'inscriptions.html', class: 'button is-outlined is-warning is-large'
+        /     span
+        /       | Inscription
+        p
+          = link_to '#', class: 'is-warning is-large', disabled: true
+            span
+              | S'inscrire
+        br
+        p
+          | Prochain évènement du 25 au 26 septembre 2020
+          br
+          | à l'occasion de la Nantes Digital Week
+  .column
+    .picture-card
+      = image_tag "photo1.jpeg"
+
 
 = partial 'views/sponsors'
 

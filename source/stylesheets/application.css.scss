@@ -8,14 +8,24 @@ section.head {
   }
 }
 .header-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),image-url('rg2018.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),image-url('photo1.jpeg');
   background-size: cover;
   background-position: bottom;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
+
+.title {
+  color: #DD390F;
+}
+
+.subtitle {
+  color: #DF7F6F;
+  padding-top: 5px;
+}
 .is-outlined {
   background-color:transparent;
-  color: #fff;
+  color: green;
+  border-color: green;
 }
 .hero-cta {
   padding: 30px;
@@ -23,7 +33,6 @@ section.head {
   p.title {
     font-size: 1.5rem;
     a {
-      color: #000;
       text-decoration: underline;
     }
   }
@@ -36,3 +45,44 @@ section.head {
 // .section.main {
 //   background-color: #F0F0F0;
 // }
+
+
+.picture-card {
+  background-color: white;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  width: 514px;
+  height: 309px;
+  margin: 10px auto;
+  border-radius: 1px;
+  img {
+    width: 498px;
+    height: 250px;
+    margin: 8px;
+  }
+}
+
+.banner {
+    height: 100%;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.banner-content p {
+  color: #DD5D47;
+  font-size: 1.25rem;
+}
+
+.banner-content p span {
+  font-size: 1.5rem;
+  color: #DD390F;
+  border: 2px solid #DD390F;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
