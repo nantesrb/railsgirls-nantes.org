@@ -24,11 +24,12 @@ section.head {
   height: 309px;
   margin: 10px auto;
   border-radius: 1px;
-  img {
+}
+
+.picture-card img {
     width: 498px;
     height: 250px;
     margin: 8px;
-  }
 }
 
 .banner {
@@ -67,12 +68,13 @@ a:hover {
   border: 2px solid #DD390F;
   padding: 10px 15px;
   border-radius: 3px;
-  &:hover {
+}
+
+.banner-content-text:hover {
     color: white;
     background-color: #FFDD58;
     border-color: #FFDD58;
     cursor: not-allowed;
-  }
 }
 
 .event-details {
@@ -80,9 +82,10 @@ a:hover {
   border-radius: 5px;
   margin: 20px;
   padding: 20px;
-  p {
-    font-size: 20px;
-    color: #E1A195;
-    text-align: center;
-  }
+}
+
+.event-details p {
+  font-size: 20px;
+  color: #E1A195;
+  text-align: center;
 }
