@@ -1,5 +1,5 @@
 # Landing page RailsGirls Nantes
-## http://www.railsgirls-nantes.org/
+### http://www.railsgirls-nantes.org/
 
 
 Landing page pour le lancement de l'évènement rails girls qui à lieu lors de la Nantes Digital week.
@@ -12,13 +12,19 @@ Landing page pour le lancement de l'évènement rails girls qui à lieu lors de 
 
 You need Bundler to install gems
 
+```
 $ gem install bundler
 $ bundle install
 $ yarn
+```
 
 #### Browser preview – http://locahost:4567
+```
 $ bundle exec middleman server
+```
 
 #### Deploying to GitHub Pages
+```
 $ mgd
+```
 
