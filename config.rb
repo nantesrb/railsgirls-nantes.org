@@ -45,4 +45,11 @@ page '/*.txt', layout: false
 configure :build do
   activate :minify_css
   activate :minify_javascript
+  activate :favicon_maker, :icons => {
+    "_favicon.png" => [
+      { icon: "favicon-152x152-precomposed.png" },
+      { icon: "favicon-114x114-precomposed.png" },
+      { icon: "favicon-72x72-precomposed.png" },
+    ]
+  }
 end
