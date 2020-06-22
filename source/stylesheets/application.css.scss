@@ -70,11 +70,14 @@ a:hover {
   border-radius: 3px;
 }
 
-.banner-content-text:hover {
-    color: white;
+// .banner-content-text:hover {
+//     color: white;
+// }
+
+.subscribe-btn:hover {
+    cursor: not-allowed;
     background-color: #FFDD58;
     border-color: #FFDD58;
-    cursor: not-allowed;
 }
 
 .event-details {
