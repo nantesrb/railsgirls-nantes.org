@@ -56,6 +56,12 @@ la_cordee:
   logo: logo_la-cordee.png
   url: https://www.la-cordee.net/cordee/nantes/foure/
   description: ""
+
+m57_studio:
+  name: M57 Studio
+  logo: M57_studio.png
+  url: https://www.instagram.com/m57.studio/?hl=fr
+  description: ""
 #
 # les_bouchees_douces:
 #   name: Les Bouchées Douces
