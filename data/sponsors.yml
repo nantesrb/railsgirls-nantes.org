@@ -33,17 +33,17 @@ code_lutin:
 #   description: ""
 #   category: vip
 #
-micropole:
-  name: Micropole
-  logo: logo_micropole.png
-  url: http://www.micropole.com
-  description: ""
+# micropole:
+#   name: Micropole
+#   logo: logo_micropole.png
+#   url: http://www.micropole.com
+#   description: ""
 
-zenika:
-  name: Zenika
-  logo: logo_zenika.png
-  url: https://www.zenika.com/
-  description: ""
+# zenika:
+#   name: Zenika
+#   logo: logo_zenika.png
+#   url: https://www.zenika.com/
+#   description: ""
 
 la_voix_du_chat:
   name: La voix du chat artiste
