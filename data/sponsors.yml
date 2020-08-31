@@ -1,7 +1,13 @@
-1kubator:
-  name: 1Kubator
-  logo: logo_1Kubator.png
-  url: https://1kubator.com/incubateur-nantes/
+# 1kubator:
+#   name: 1Kubator
+#   logo: logo_1Kubator.png
+#   url: https://1kubator.com/incubateur-nantes/
+#   description: ""
+#   category: vip
+la_cantine_numerique:
+  name: La Cantine Numérique
+  logo: logo-la-cantine.jpeg
+  url: https://www.lacantine.co/
   description: ""
   category: vip
 
@@ -51,11 +57,11 @@ la_voix_du_chat:
   url: http://improv.chat/
   description: ""
 
-la_cordee:
-  name: La Cordée Fourée
-  logo: logo_la-cordee.png
-  url: https://www.la-cordee.net/cordee/nantes/foure/
-  description: ""
+# la_cordee:
+#   name: La Cordée Fourée
+#   logo: logo_la-cordee.png
+#   url: https://www.la-cordee.net/cordee/nantes/foure/
+#   description: ""
 
 m57_studio:
   name: M57 Studio
