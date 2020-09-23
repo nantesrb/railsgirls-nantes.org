@@ -80,3 +80,10 @@ m57_studio:
 #   logo: logo_la-fruitbox.png
 #   url: https://www.lafruitbox.fr/
 #   description: ""
+
+contrevent:
+  name : Contrevent
+  logo: logo-contrevent.jpeg
+  url: https://open.spotify.com/show/5juGMeyEIYNVT5PWypA3Dn
+  description: ""
+
