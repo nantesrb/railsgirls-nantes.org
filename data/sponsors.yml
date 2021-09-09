@@ -4,12 +4,12 @@
 #   url: https://1kubator.com/incubateur-nantes/
 #   description: ""
 #   category: vip
-la_cantine_numerique:
-  name: La Cantine Numérique
-  logo: logo-la-cantine.jpeg
-  url: https://www.lacantine.co/
-  description: ""
-  category: vip
+# la_cantine_numerique:
+#   name: La Cantine Numérique
+#   logo: logo-la-cantine.jpeg
+#   url: https://www.lacantine.co/
+#   description: ""
+#   category: vip
 
 le_wagon_nantes:
   name: Le Wagon Nantes
@@ -25,12 +25,12 @@ clever_cloud:
   description: ""
   category: vip
 
-code_lutin:
-  name: Code Lutin
-  logo: logo_code-lutin.png
-  url: https://www.codelutin.com/
-  description: ""
-  category: vip
+# code_lutin:
+#   name: Code Lutin
+#   logo: logo_code-lutin.png
+#   url: https://www.codelutin.com/
+#   description: ""
+#   category: vip
 
 # palo_it:
 #   name: Palo IT
@@ -51,11 +51,11 @@ code_lutin:
 #   url: https://www.zenika.com/
 #   description: ""
 
-la_voix_du_chat:
-  name: La voix du chat artiste
-  logo: logo_la-voix-du-chat.png
-  url: http://improv.chat/
-  description: ""
+# la_voix_du_chat:
+#   name: La voix du chat artiste
+#   logo: logo_la-voix-du-chat.png
+#   url: http://improv.chat/
+#   description: ""
 
 # la_cordee:
 #   name: La Cordée Fourée
@@ -63,11 +63,11 @@ la_voix_du_chat:
 #   url: https://www.la-cordee.net/cordee/nantes/foure/
 #   description: ""
 
-m57_studio:
-  name: M57 Studio
-  logo: M57_studio.png
-  url: https://www.instagram.com/m57.studio/?hl=fr
-  description: ""
+# m57_studio:
+#   name: M57 Studio
+#   logo: M57_studio.png
+#   url: https://www.instagram.com/m57.studio/?hl=fr
+#   description: ""
 #
 # les_bouchees_douces:
 #   name: Les Bouchées Douces
@@ -87,3 +87,14 @@ contrevent:
   url: https://open.spotify.com/show/5juGMeyEIYNVT5PWypA3Dn
   description: ""
 
+doctolib:
+  name : Doctolib
+  logo: logo_doctolib.png
+  url: https://www.doctolib.fr/
+  description: ""
+
+twilio:
+  name : Twilio
+  logo: logo_twilio.png
+  url: https://www.twilio.com/fr/
+  description: ""
